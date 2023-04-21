@@ -10,6 +10,7 @@ namespace Tag_Finder
     public partial class frmtagfinder : Form
     {
         BackgroundWorker worker;
+        bool running = false;
 
         struct rank_path
         {
@@ -49,12 +50,13 @@ namespace Tag_Finder
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            if (running) return;
             if (txtCurrentPath.Text == String.Empty) return;
             if (txtTags.Text == String.Empty) return;
 
             rtbResults.Text = "Searching...\n\n";
-                      
 
+            running = true;
             worker.RunWorkerAsync(argument: txtCurrentPath);
         }
 
@@ -64,7 +66,7 @@ namespace Tag_Finder
             if (e.Error != null)
             {
                 rtbResults.AppendText("\n\nSearch Error!");
-                return;
+                
             }
             else
             {
@@ -109,6 +111,7 @@ namespace Tag_Finder
 
                 rtbResults.AppendText("\n\nDone!");
             }
+            running = false;
         }
 
 
