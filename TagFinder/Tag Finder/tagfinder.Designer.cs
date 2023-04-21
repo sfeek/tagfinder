@@ -39,45 +39,50 @@
             // 
             // txtTags
             // 
-            this.txtTags.Location = new System.Drawing.Point(99, 12);
+            this.txtTags.Location = new System.Drawing.Point(87, 9);
+            this.txtTags.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTags.Name = "txtTags";
-            this.txtTags.Size = new System.Drawing.Size(671, 27);
+            this.txtTags.Size = new System.Drawing.Size(588, 23);
             this.txtTags.TabIndex = 0;
             // 
             // lblTags
             // 
             this.lblTags.AutoSize = true;
-            this.lblTags.Location = new System.Drawing.Point(7, 15);
+            this.lblTags.Location = new System.Drawing.Point(6, 11);
             this.lblTags.Name = "lblTags";
-            this.lblTags.Size = new System.Drawing.Size(86, 20);
+            this.lblTags.Size = new System.Drawing.Size(68, 15);
             this.lblTags.TabIndex = 1;
             this.lblTags.Text = "Search Tags";
             // 
             // rtbResults
             // 
-            this.rtbResults.Location = new System.Drawing.Point(16, 64);
+            this.rtbResults.Location = new System.Drawing.Point(14, 48);
+            this.rtbResults.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtbResults.Name = "rtbResults";
             this.rtbResults.ReadOnly = true;
-            this.rtbResults.Size = new System.Drawing.Size(754, 369);
+            this.rtbResults.Size = new System.Drawing.Size(660, 278);
             this.rtbResults.TabIndex = 2;
             this.rtbResults.TabStop = false;
             this.rtbResults.Text = "";
-            this.rtbResults.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.rtbResults_LinkClicked_1);
+            this.rtbResults.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.rtbResults_LinkClicked);
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(267, 499);
+            this.btnSearch.Location = new System.Drawing.Point(234, 374);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(415, 65);
+            this.btnSearch.Size = new System.Drawing.Size(363, 49);
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnChooseRoot
             // 
-            this.btnChooseRoot.Location = new System.Drawing.Point(47, 499);
+            this.btnChooseRoot.Location = new System.Drawing.Point(41, 374);
+            this.btnChooseRoot.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChooseRoot.Name = "btnChooseRoot";
-            this.btnChooseRoot.Size = new System.Drawing.Size(178, 65);
+            this.btnChooseRoot.Size = new System.Drawing.Size(156, 49);
             this.btnChooseRoot.TabIndex = 2;
             this.btnChooseRoot.Text = "Choose Start Path";
             this.btnChooseRoot.UseVisualStyleBackColor = true;
@@ -86,24 +91,25 @@
             // lblStart1
             // 
             this.lblStart1.AutoSize = true;
-            this.lblStart1.Location = new System.Drawing.Point(16, 442);
+            this.lblStart1.Location = new System.Drawing.Point(14, 332);
             this.lblStart1.Name = "lblStart1";
-            this.lblStart1.Size = new System.Drawing.Size(127, 20);
+            this.lblStart1.Size = new System.Drawing.Size(104, 15);
             this.lblStart1.TabIndex = 5;
             this.lblStart1.Text = "Current Start Path:";
             // 
             // txtCurrentPath
             // 
-            this.txtCurrentPath.Location = new System.Drawing.Point(148, 439);
+            this.txtCurrentPath.Location = new System.Drawing.Point(130, 329);
+            this.txtCurrentPath.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCurrentPath.Name = "txtCurrentPath";
-            this.txtCurrentPath.Size = new System.Drawing.Size(622, 27);
+            this.txtCurrentPath.Size = new System.Drawing.Size(545, 23);
             this.txtCurrentPath.TabIndex = 1;
             // 
             // frmtagfinder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 576);
+            this.ClientSize = new System.Drawing.Size(684, 432);
             this.Controls.Add(this.txtCurrentPath);
             this.Controls.Add(this.lblStart1);
             this.Controls.Add(this.btnChooseRoot);
@@ -112,8 +118,9 @@
             this.Controls.Add(this.lblTags);
             this.Controls.Add(this.txtTags);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmtagfinder";
-            this.Text = "Tag Finder v1.0";
+            this.Text = "Folder Tag Finder v1.0";
             this.ResumeLayout(false);
             this.PerformLayout();
 
