@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "aXE0qD+PTKxMzIeFFybme5n5tlnl9Q7IdkC9p9MKXHa6LAVThc1enYiWNbJk0Oe461oLPp5JbfR3rRzs5RyjHg==",
+  "success": true,
+  "projectFilePath": "C:\\Source Code\\tagfinder\\TagFinder\\Tag Finder\\Tag Finder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shane.feek\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.13\\microsoft.netcore.app.runtime.win-x64.6.0.13.nupkg.sha512",
+    "C:\\Users\\shane.feek\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.13.nupkg.sha512",
+    "C:\\Users\\shane.feek\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.13\\microsoft.aspnetcore.app.runtime.win-x64.6.0.13.nupkg.sha512",
+    "C:\\Users\\shane.feek\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.13\\microsoft.netcore.app.crossgen2.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
