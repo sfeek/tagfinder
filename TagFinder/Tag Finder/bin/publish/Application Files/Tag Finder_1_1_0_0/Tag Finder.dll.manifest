@@ -62,13 +62,13 @@
       <dsig:DigestValue>HHGSJJ7simASdMXsjZ2qIl2vfjCQLFT4XpHNshDExiY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Tag Finder.dll" size="14336">
+  <file name="Tag Finder.dll" size="16384">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4tSbP7eE6NOw1irli4LvlCVFg5tUL9KPc652TZ4C51I=</dsig:DigestValue>
+      <dsig:DigestValue>fPooTPu/2PRysz2FOt8sq2D9p5HeIdPBAXE8R7vGxsA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Tag Finder.exe" size="147968">

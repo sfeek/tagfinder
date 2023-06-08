@@ -5,6 +5,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Tag_Finder
 {
@@ -54,6 +55,9 @@ namespace Tag_Finder
             if (running) return;
             if (txtCurrentPath.Text == String.Empty) return;
             if (txtTags.Text == String.Empty) return;
+
+            btnSearch.Enabled = false;
+            btnChooseRoot.Enabled = false;
 
             rtbResults.Text = "Searching...\n\n";
 
@@ -122,22 +126,61 @@ namespace Tag_Finder
                 }
             }
             running = false;
+            btnSearch.Enabled = true;
+            btnChooseRoot.Enabled = true;
         }
 
 
         void worker_CollectFiles(object? sender, DoWorkEventArgs e)
         {
+            List<string> f = new List<string>();
+
             try
             {
-                var file_list = Directory.EnumerateFiles(txtCurrentPath.Text, "tags.txt", new EnumerationOptions
+                var myFiles = new DirectoryInfo(txtCurrentPath.Text).EnumerateFiles("tags.txt", SearchOption.AllDirectories);
+                var myList = EnumerateFilesIgnoreErrors(myFiles).ToList();
+
+                foreach (var file in myList)
                 {
-                    IgnoreInaccessible = true,
-                    RecurseSubdirectories = true
-                });
-                e.Result = file_list.ToList();
+                    f.Add(file.ToString());
+                }
+
+                e.Result = f;
             }
-            catch { e.Result = null; }
+            catch
+            {
+                e.Result = null; 
+            }
         }
+
+        public static IEnumerable<FileInfo> EnumerateFilesIgnoreErrors(IEnumerable<FileInfo> files)
+        {
+            using (var e1 = files.GetEnumerator())
+            {
+                while (true)
+                {
+                    FileInfo? cur = null;
+
+                    try
+                    {
+                        // MoveNext() can throw an Exception
+                        if (!e1.MoveNext())
+                            break;
+
+                        cur = e1.Current;
+
+                    }
+                    catch { }
+
+                    if (cur != null)
+                    {
+                        yield return cur;
+                    }
+                }
+            }
+        }
+
+
 
         private int search_engine(string tags, string text)
         {
