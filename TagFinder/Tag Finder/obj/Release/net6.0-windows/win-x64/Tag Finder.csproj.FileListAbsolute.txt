@@ -1,0 +1,18 @@
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\win-x64\Tag Finder.exe
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\win-x64\Tag Finder.deps.json
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\win-x64\Tag Finder.runtimeconfig.json
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\win-x64\Tag Finder.dll
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\win-x64\Tag Finder.pdb
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.csproj.AssemblyReference.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag_Finder.Properties.Resources.resources
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag_Finder.frmtagfinder.resources
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.csproj.GenerateResource.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.AssemblyInfoInputs.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.AssemblyInfo.cs
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.csproj.CoreCompileInputs.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.dll
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\refint\Tag Finder.dll
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.pdb
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\Tag Finder.genruntimeconfig.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\win-x64\ref\Tag Finder.dll

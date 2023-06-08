@@ -1,0 +1,2 @@
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\publish\win-x64\Tag Finder.pdb
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\publish\win-x64\Tag Finder.exe
