@@ -4,6 +4,7 @@ using static System.Net.Mime.MediaTypeNames;
 using System.Threading;
 using System.Windows.Forms;
 using System;
+using System.Collections.Generic;
 
 namespace Tag_Finder
 {
@@ -60,62 +61,71 @@ namespace Tag_Finder
             worker.RunWorkerAsync(argument: txtCurrentPath);
         }
 
-        private void worker_FileListComplete(object sender, RunWorkerCompletedEventArgs e)
+        private void worker_FileListComplete(object? sender, RunWorkerCompletedEventArgs e)
         {
             // check error, check cancel, then use result
             if (e.Error != null)
             {
                 rtbResults.AppendText("\n\nSearch Error!");
-                
+
             }
             else
             {
-
-                List<string> files = (List<string>)e.Result;
-
-                List<rank_path> list = new List<rank_path>();
-
-                rank_path rp = new rank_path();
-
-                foreach (string file in files)
+                if (e.Result != null)
                 {
-                    try
+                    List<string> files = (List<string>)e.Result;
+
+                    List<rank_path> list = new List<rank_path>();
+
+                    rank_path rp = new rank_path();
+
+                    foreach (string file in files)
                     {
-                        if (File.Exists(file))
+                        try
                         {
-                            string contents = File.ReadAllText(file);
-                            contents = contents.Replace("#", "");
-                            int count = search_engine(txtTags.Text, contents);
-                            if (count > 0)
+                            if (File.Exists(file))
                             {
-                                var p = Path.GetDirectoryName(file);
-                                var uri = new System.Uri(p);
-                                rp.path = uri.AbsoluteUri;
-                                rp.rank = count;
-                                list.Add(rp);
+                                string contents = File.ReadAllText(file);
+                                contents = contents.Replace("#", "");
+                                int count = search_engine(txtTags.Text, contents);
+                                if (count > 0)
+                                {
+                                    var p = Path.GetDirectoryName(file);
+                                    if (p != null)
+                                    {
+                                        var uri = new System.Uri(p);
+                                        rp.path = uri.AbsoluteUri;
+                                        rp.rank = count;
+                                        list.Add(rp);
+                                    }
+                                }
                             }
                         }
+                        catch
+                        {
+
+                        }
                     }
-                    catch
+
+                    var ranked = list.OrderByDescending(x => x.rank).ToList();
+
+                    foreach (rank_path rank in ranked)
                     {
-
+                        rtbResults.AppendText(String.Format("{0} - {1}\n", rank.rank, rank.path));
                     }
+
+                    rtbResults.AppendText("\n\nDone!");
                 }
-
-                var ranked = list.OrderByDescending(x => x.rank).ToList();
-
-                foreach (rank_path rank in ranked)
+                else
                 {
-                    rtbResults.AppendText(String.Format("{0} - {1}\n", rank.rank, rank.path));
+                    rtbResults.AppendText("\n\nInternal Error!");
                 }
-
-                rtbResults.AppendText("\n\nDone!");
             }
             running = false;
         }
 
 
-        void worker_CollectFiles(object sender, DoWorkEventArgs e)
+        void worker_CollectFiles(object? sender, DoWorkEventArgs e)
         {
             try
             {
@@ -127,7 +137,7 @@ namespace Tag_Finder
                 e.Result = file_list.ToList();
             }
             catch { e.Result = null; }
-         }
+        }
 
         private int search_engine(string tags, string text)
         {

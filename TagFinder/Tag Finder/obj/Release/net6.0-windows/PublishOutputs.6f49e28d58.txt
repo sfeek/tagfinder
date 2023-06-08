@@ -1,0 +1,5 @@
+D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\app.publish\Tag Finder.exe
+D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\app.publish\Tag Finder.dll
+D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\app.publish\Tag Finder.deps.json
+D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\app.publish\Tag Finder.runtimeconfig.json
+D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\app.publish\Tag Finder.pdb
