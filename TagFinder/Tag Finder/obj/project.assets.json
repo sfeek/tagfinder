@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source Code\\tagfinder\\TagFinder\\Tag Finder\\Tag Finder.csproj",
+      "projectUniqueName": "C:\\Source Code\\tagfinder\\TagFinder\\Tag Finder\\Tag Finder.csproj",
       "projectName": "Tag Finder",
-      "projectPath": "D:\\Source Code\\tagfinder\\TagFinder\\Tag Finder\\Tag Finder.csproj",
+      "projectPath": "C:\\Source Code\\tagfinder\\TagFinder\\Tag Finder\\Tag Finder.csproj",
       "packagesPath": "C:\\Users\\shane.feek\\.nuget\\packages\\",
-      "outputPath": "D:\\Source Code\\tagfinder\\TagFinder\\Tag Finder\\obj\\",
+      "outputPath": "C:\\Source Code\\tagfinder\\TagFinder\\Tag Finder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shane.feek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
