@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="Tag Finder.exe" version="1.1.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Launcher.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16384">
-      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16880">
+      <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6w2pYPiiIZndnKqEL4IpDQnSVQNr1F9wYSqm0s3IanE=</dsig:DigestValue>
+        <dsig:DigestValue>PTfxRNqnymOLqfXGEaPxKn7B+ZnyH0kdRjHonkggyE8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,22 +62,22 @@
       <dsig:DigestValue>HHGSJJ7simASdMXsjZ2qIl2vfjCQLFT4XpHNshDExiY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Tag Finder.dll" size="16384">
+  <file name="Tag Finder.dll" size="17392">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fPooTPu/2PRysz2FOt8sq2D9p5HeIdPBAXE8R7vGxsA=</dsig:DigestValue>
+      <dsig:DigestValue>v5czyYf/+R94oOOlHpVpT6GkfUloPp9GiRVPK800FTs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Tag Finder.exe" size="147968">
+  <file name="Tag Finder.exe" size="148976">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rpovusnoNhIuEyN5Bb3/7zFLOe2Bc0U1FKkfIcTSHrI=</dsig:DigestValue>
+      <dsig:DigestValue>ADyr9d/oGYMXiWuQEFJzvWQF2CNMkKyra/ehXk+wNtI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Tag Finder.runtimeconfig.json" size="372">
