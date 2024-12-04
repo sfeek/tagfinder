@@ -1,21 +1,3 @@
-C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.exe
-C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.deps.json
-C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.runtimeconfig.json
-C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.dll
-C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.pdb
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.csproj.AssemblyReference.cache
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag_Finder.frmtagfinder.resources
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.csproj.GenerateResource.cache
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.GeneratedMSBuildEditorConfig.editorconfig
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.AssemblyInfoInputs.cache
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.AssemblyInfo.cs
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.csproj.CoreCompileInputs.cache
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.dll
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\refint\Tag Finder.dll
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.pdb
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.genruntimeconfig.cache
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\ref\Tag Finder.dll
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag_Finder.Properties.Resources.resources
 D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.exe
 D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.deps.json
 D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.runtimeconfig.json
@@ -38,7 +20,21 @@ D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Fin
 D:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.application
 D:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.dll.manifest
 D:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.application
-C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.dll.manifest
-C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.application
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.dll.manifest
-C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.application
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.exe
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.deps.json
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.runtimeconfig.json
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.dll
+C:\Source Code\tagfinder\TagFinder\Tag Finder\bin\Release\net6.0-windows\Tag Finder.pdb
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.csproj.AssemblyReference.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag_Finder.Properties.Resources.resources
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag_Finder.frmtagfinder.resources
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.csproj.GenerateResource.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.AssemblyInfoInputs.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.AssemblyInfo.cs
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.csproj.CoreCompileInputs.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.dll
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\refint\Tag Finder.dll
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.pdb
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\Tag Finder.genruntimeconfig.cache
+C:\Source Code\tagfinder\TagFinder\Tag Finder\obj\Release\net6.0-windows\ref\Tag Finder.dll

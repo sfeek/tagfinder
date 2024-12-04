@@ -94,11 +94,12 @@ namespace Tag_Finder
                                 int count = search_engine(txtTags.Text, contents);
                                 if (count > 0)
                                 {
-                                    var p = Path.GetDirectoryName(file);
+                                    var p = Path.GetFullPath(file);
+
                                     if (p != null)
                                     {
                                         var uri = new System.Uri(p);
-                                        rp.path = uri.AbsoluteUri;
+                                        rp.path = uri.AbsoluteUri.Replace(".tags", "");
                                         rp.rank = count;
                                         list.Add(rp);
                                     }
@@ -137,7 +138,7 @@ namespace Tag_Finder
 
             try
             {
-                var myFiles = new DirectoryInfo(txtCurrentPath.Text).EnumerateFiles("tags.txt", SearchOption.AllDirectories);
+                var myFiles = new DirectoryInfo(txtCurrentPath.Text).EnumerateFiles("*.tags", SearchOption.AllDirectories);
                 var myList = EnumerateFilesIgnoreErrors(myFiles).ToList();
 
                 foreach (var file in myList)
@@ -149,7 +150,7 @@ namespace Tag_Finder
             }
             catch
             {
-                e.Result = null; 
+                e.Result = null;
             }
         }
 

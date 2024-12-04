@@ -39,26 +39,28 @@
             // 
             // txtTags
             // 
-            txtTags.Location = new Point(99, 12);
+            txtTags.Location = new Point(87, 9);
+            txtTags.Margin = new Padding(3, 2, 3, 2);
             txtTags.Name = "txtTags";
-            txtTags.Size = new Size(671, 27);
+            txtTags.Size = new Size(588, 23);
             txtTags.TabIndex = 0;
             // 
             // lblTags
             // 
             lblTags.AutoSize = true;
-            lblTags.Location = new Point(7, 15);
+            lblTags.Location = new Point(6, 11);
             lblTags.Name = "lblTags";
-            lblTags.Size = new Size(86, 20);
+            lblTags.Size = new Size(69, 15);
             lblTags.TabIndex = 1;
             lblTags.Text = "Search Tags";
             // 
             // rtbResults
             // 
-            rtbResults.Location = new Point(16, 64);
+            rtbResults.Location = new Point(14, 48);
+            rtbResults.Margin = new Padding(3, 2, 3, 2);
             rtbResults.Name = "rtbResults";
             rtbResults.ReadOnly = true;
-            rtbResults.Size = new Size(754, 369);
+            rtbResults.Size = new Size(660, 278);
             rtbResults.TabIndex = 2;
             rtbResults.TabStop = false;
             rtbResults.Text = "";
@@ -66,9 +68,10 @@
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(267, 499);
+            btnSearch.Location = new Point(234, 374);
+            btnSearch.Margin = new Padding(3, 2, 3, 2);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(415, 65);
+            btnSearch.Size = new Size(363, 49);
             btnSearch.TabIndex = 3;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
@@ -76,9 +79,10 @@
             // 
             // btnChooseRoot
             // 
-            btnChooseRoot.Location = new Point(47, 499);
+            btnChooseRoot.Location = new Point(41, 374);
+            btnChooseRoot.Margin = new Padding(3, 2, 3, 2);
             btnChooseRoot.Name = "btnChooseRoot";
-            btnChooseRoot.Size = new Size(178, 65);
+            btnChooseRoot.Size = new Size(156, 49);
             btnChooseRoot.TabIndex = 2;
             btnChooseRoot.Text = "Choose Start Path";
             btnChooseRoot.UseVisualStyleBackColor = true;
@@ -87,24 +91,25 @@
             // lblStart1
             // 
             lblStart1.AutoSize = true;
-            lblStart1.Location = new Point(16, 443);
+            lblStart1.Location = new Point(14, 332);
             lblStart1.Name = "lblStart1";
-            lblStart1.Size = new Size(127, 20);
+            lblStart1.Size = new Size(104, 15);
             lblStart1.TabIndex = 5;
             lblStart1.Text = "Current Start Path:";
             // 
             // txtCurrentPath
             // 
-            txtCurrentPath.Location = new Point(149, 439);
+            txtCurrentPath.Location = new Point(130, 329);
+            txtCurrentPath.Margin = new Padding(3, 2, 3, 2);
             txtCurrentPath.Name = "txtCurrentPath";
-            txtCurrentPath.Size = new Size(622, 27);
+            txtCurrentPath.Size = new Size(545, 23);
             txtCurrentPath.TabIndex = 1;
             // 
             // frmtagfinder
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(782, 576);
+            ClientSize = new Size(684, 432);
             Controls.Add(txtCurrentPath);
             Controls.Add(lblStart1);
             Controls.Add(btnChooseRoot);
@@ -113,8 +118,9 @@
             Controls.Add(lblTags);
             Controls.Add(txtTags);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "frmtagfinder";
-            Text = "Folder Tag Finder v1.1";
+            Text = "Folder Tag Finder v2.0";
             ResumeLayout(false);
             PerformLayout();
         }
